@@ -1,0 +1,175 @@
+/*Big tablet to 1200 px (widths smaller than the 1140 px row*/
+@media only screen and (max-width: 1200px){
+	
+}
+/*Small tablet to big tablet: from 768 to 1023px*/
+@media only screen and (max-width: 1023px){
+	/*---REUSABLE---*/
+	body { font-size: 18px;}
+	section { padding: 55px 0;}
+	.row { padding:0 2%;}
+	/*------*/
+	.main-text-box {
+		width: 100%;
+		padding: 0 2%;
+	}
+	.profile {
+		padding: 0;
+	}
+	.hobby-col {
+		height: 200px;
+	}
+	.hobby-col-3 {
+		margin-right: 5px; 
+	}
+	.hobby-col-2 {
+		margin-left: 5px;
+		margin-right:0;
+		/*padding-right: -10px;*/
+	}
+	.hobby-col-1 {
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.hobby-text {
+		width: 95%;
+	}
+	.section-form h3{
+		font-size: 110%;
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.contact-form-messages {
+		width: 100%;
+		margin-top: 20px;
+		text-align: center; 
+		}
+	.footer-data li:nth-child(3) {
+		display: none;
+	}
+}
+/*Small phones to small tablets:  from 481 to 767px */
+@media only screen and (max-width: 767px){
+	body { font-size: 16px;}
+	section { padding: 50px 0;}
+	.icon-big {
+		margin-bottom: 20px;
+	}
+	.col {
+		margin-left: 0;
+	}
+	.span-2-of-2 {
+		width: 100%; 
+	}
+	.span-1-of-2 {
+		width: 100%; 
+	}
+	.span-3-of-3 {
+		width: 100%; 
+	}
+
+	.span-2-of-3 {
+		width: 100%; 
+
+	}
+
+	.span-1-of-3 {
+		width: 100%; 
+	}
+
+	/*------*/
+	.profile {
+		text-align: center;
+	}
+	.profile-text {
+		width: 80%;
+	}
+	.profile-data {
+		margin-bottom: 10px;
+	}
+	.languages-showcase {
+		width: 100%;
+		margin-right: 0%;
+		margin-left: 0%;
+	}
+	.languages-showcase li{
+		
+		margin-bottom: 20px;
+		/*text-align: center;*/
+	}
+
+	.hobby-col  {
+		margin-bottom: 20px;
+		margin-right: 0px;
+	}
+	.hobby {
+	/*margin: 5% auto;*/
+	transform: translate(-50%, -70%);	
+	}
+	.hobby-text {
+		margin-bottom: 30px;
+		width: 70%;
+	}
+	.contact-form {
+		width: 100%;
+	}
+	.footer-data li{
+		padding: 10px;
+	}
+}
+/*small phones: from 0 to 480 px*/
+@media only screen and (max-width: 480px){
+	body { font-size: 14px;}
+	section { padding: 45px 0;}
+	.icon-big {
+		margin-bottom: 10px;
+	}
+	.btn {
+		/*margin: 5px 0;*/
+		padding: 10px 15px;
+	}
+	.icon-small {
+		margin-right: 0;
+	}
+
+	.main-nav {
+		width: 99%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 35px;
+		text-align: center;
+	}
+	.main-nav li {
+		
+		margin-right: 20px;
+	}
+	.main-text-box {
+		top: 30%;
+		left: 3%;
+		
+		-webkit-transform: translate(0, 0);
+		        transform: translate(0, 0);
+	}
+	.profile-text {
+		width: 98%;
+	}
+	.hobby-text {
+		width: 90%;
+	}
+
+}
+
+@media only screen and (max-width: 300px){
+	body { font-size: 12px;}
+	.language-image {
+		height: 100px;
+	}
+	.hobby {
+		margin: 10% auto;
+	}
+	.hobby-col {
+		height: 170px;
+	}
+	
+}

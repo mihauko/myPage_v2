@@ -30,8 +30,8 @@
 		<nav> 
 			<div class="row">
 				<ul class="main-nav">
-					<li><a href="#profile">Profil</a></li>
-					<li><a href="#skills">Umiejętności</a></li>
+					<li><a href="#profile">O mnie</a></li>
+					<li><a href="#hobby">Zainteresowania</a></li>
 					<li><a href="#contact">Kontakt</a></li>
 				</ul>
 			</div>
@@ -154,39 +154,62 @@
 		</div>
 		<!-- POPUPS END -->
 		<div class="row">
-			<h2>Mój Profil</h2>
+			<h2>O mnie</h2>
 				
 		</div>
 		<div class="row profile-frontend">
 			<div class="col span-1-of-3 profile">
 
-				<figure class="my-photo">
-					<img src="resources/images/avatar1-min.jpg" alt="My photo">
-				</figure>
-				
-				<div class="profile-data">
-					<i class="ion-android-person icon-small"></i>
-					Michal Winiarski
-				</div>
-				<div class="profile-data">
-					<i class="ion-ios-infinite icon-small"></i>
-					06.04.1991
-				</div>
-				<div class="profile-data">
-					<i class="fa fa-briefcase icon-small"></i>
-					Junior Frontend Developer
-				</div>
-				<div class="profile-data">
-					<i class="ion-social-facebook icon-small"></i>
-					<a href="https://www.facebook.com/profile.php?id=100001839977024" target="_blank">facebook</a>
-				</div>
-				<div class=" profile-data">
-					<i class="ion-social-linkedin icon-small"></i>
-					<a href="https://pl.linkedin.com/pub/michał-winiarski/70/a/2aa" target="_blank">linkedin</a>	
+				<div class="profile-data-wrapper">
+					<figure class="my-photo">
+						<img src="resources/images/avatar1-min.jpg" alt="My photo">
+					</figure>
+					<div class="profile-data">
+						<i class="ion-android-person icon-small"></i>
+						Michal Winiarski
+					</div>
+					<div class="profile-data">
+						<i class="ion-ios-infinite icon-small"></i>
+						06.04.1991
+					</div>
+					<div class="profile-data">
+						<i class="fa fa-briefcase icon-small"></i>
+						Junior Frontend Developer
+					</div>
+					<div class="profile-data">
+						<i class="ion-social-facebook icon-small"></i>
+						<a href="https://www.facebook.com/profile.php?id=100001839977024" target="_blank">facebook</a>
+					</div>
+					<div class=" profile-data">
+						<i class="ion-social-linkedin icon-small"></i>
+						<a href="https://pl.linkedin.com/pub/michał-winiarski/70/a/2aa" target="_blank">linkedin</a>	
+					</div>
 				</div>
 			</div>
 			<div class="col span-2-of-3 profile-text-wrapper">
-				<p class="profile-text">Cześć, mam na imię <strong>Michał</strong>, pochodzę z Krakowa. Tutaj też stawiałem pierwsze kroki we Frontendzie. Początkowo bawiłem się kodem oglądając tutoriale, aż w połowie roku 2015, zacząłem oglądać masowo kursy i czytać książki, razem z nimi tworzyłem strony, również przeglądałem ciekawie wykonane strony, które dawały mi coraz to nowsze pomysły. Jednym z nich jest moja strona domowa.</p>
+				<!-- <p class="profile-text">Cześć, mam na imię Michał, pochodzę z Krakowa. Tutaj stawiałem pierwsze kroki we Frontendzie. Początkowo bawiłem się kodem oglądając tutoriale, aż w połowie roku 2015, zacząłem oglądać masowo kursy i czytać książki, razem z nimi tworzyłem strony, również przeglądałem ciekawie wykonane strony, które dawały mi coraz to nowsze pomysły. Jednym z nich jest moja strona domowa.</p> -->
+				<!-- <div class="row">
+					<div class="profile-education-buttons">
+							<div class="btn btn-work">Praca</div>
+							<div class="btn btn-edu">Edukacja</div>
+						</div>
+				</div> -->
+				<h4>Moje umiejętności</h4>
+				<div class="row">
+					<div class="languages-showcase  main-languages clearfix">
+						<ul>
+							<li><h4>HTML 5</h4> i <h4>CSS 3</h4> są podstawą do tworzenia stron WWW</li><!-- -->
+							<li>Aby dostosować stronę do urządzen mobilnych, korzystam z wiedzy o <h4>RWD</h4></li><!-- -->
+							<li>W celu przyśpieszenia pracy, wykorzystuję framework <h4> Bootstrap </h4> oraz system do automatyzacji pracy <h4>GulpJS </h4></li><!-- -->
+							<li>Cały czas rozwijam wiedzę o <h4>JS</h4> czy bibliotece <h4>jQuery</h4></li><!-- -->
+							<li>Poznałem tajniki wykorzystania sytemu <h4>Git</h4> </li><!-- -->
+							<li>Aby jak najlepiej strona wyglądała na wszystkich przeglądarkach poznaję i wykorzystuję tzw. <h4>cross-browser</h4></li><!-- -->
+							<li>Spoiwem tego wszystkiego jest edytor <h4>Sublime-text 2</h4></li><!-- -->
+							<li>Od niedawna stawiam swoje pierwsze kroki w <h4>ReactJS</h4></li><!-- -->
+							<li>Moim celem jest zapoznianie i tworzenie stron w <h4>Wordpress</h4>-ie</li><!-- -->
+						</ul>
+					</div>
+				</div>
 				<div class="row">
 					<div class="profile-education-buttons">
 						<div class="btn btn-work">Praca</div>
@@ -197,26 +220,19 @@
 			<div class="clearfix"></div>
 		</div>
 	</section>
-	<section class="section-skills " id="skills">
+	<!-- <section class="section-skills " id="skills">
 		<div class="row">
 			<h2>Umiejętności</h2>
 		</div>
 		<div class="row">
 			<div class="languages-showcase  main-languages clearfix">
 				<ul>
-					<li><h4>HTML 5</h4> i <h4>CSS 3</h4> są podstawą do tworzenia stron WWW</li>
-					<li>Aby dostosować stronę do urządzen mobilnych, korzystam z wiedzy o <h4>RWD</h4></li>
-					<li>W celu przyśpieszenia pracy, wykorzystuję framework <h4> Bootstrap </h4> oraz system do automatyzacji pracy <h4>GulpJS </h4></li>
-					<li>Cały czas rozwijam wiedzę o <h4>JS</h4> czy bibliotece <h4>jQuery</h4></li>
-					<li>Poznałem tajniki wykorzystania sytemu <h4>Git</h4> </li>
-					<li>Aby jak najlepiej strona wyglądała na wszystkich przeglądarkach poznaję i wykorzystuję tzw. <h4>cross-browser</h4></li>
-					<li>Spoiwem tego wszystkiego jest edytor <h4>Sublime-text 2</h4></li>
-					<li>Od niedawna stawiam swoje pierwsze kroki w <h4>ReactJS</h4></li>
-					<li>Moim celem jest zapoznianie i tworzenie stron w <h4>Wordpress</h4>-ie</li>
+					
 				</ul>
 			</div>
 		</div>
-	</section>
+		
+	</section> -->
 	<section class="section-hobbies js--section-hobby" id="hobby">
 		<div class="row">
 			<h2>Zainteresowania</h2>
@@ -276,8 +292,8 @@
 			</div>
 		</div>
 	</section>
-	<section class="section-contact">
-		<div class="contact-form" id="contact">
+	<section class="section-contact"  id="contact">
+		<div class="contact-form">
 			<div class="row">
 				<h2>Kontakt</h2>
 				<h3>Jeżeli masz pytania, ciekawe propozycje, a może chcesz porozmawiać, to śmiało pisz do mnie. Jestem otwarty na nowe kontakty.</h3>

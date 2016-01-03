@@ -10,7 +10,7 @@
 	.row { padding:0 2%;}
 	/*------*/
 	.main-text-box {
-		width: 100%;
+		width: 80%;
 		padding: 0 2%;
 	}
 	.profile {
@@ -81,6 +81,9 @@
 	/*------*/
 	.profile {
 		text-align: center;
+	}
+	.profile-data-wrapper {
+		position: static;
 	}
 	.profile-text {
 		width: 80%;
